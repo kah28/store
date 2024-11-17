@@ -1,0 +1,26 @@
+
+<!-- <app-search002></app-search002> -->
+
+<!-- <form [formGroup]="listForm">
+  <div formArrayName="tranrs">
+    <div *ngFor="let tran of tranrs.controls; let i = index" [formGroupName]="i">
+      <label>Tranrs {{ i + 1 }}</label>
+      <input formControlName="storeId" placeholder="StoreID" readonly />
+      <input formControlName="storeName" placeholder="Name" />
+      <input formControlName="tel" placeholder="Tel" />
+    </div>
+  </div>
+</form> -->
+
+<form [formGroup]="listForm">
+  <div formArrayName="tranrs">
+    <div *ngFor="let tran of tranrs.controls; let i = index" [formGroupName]="i">
+      <label>Tranrs {{ i + 1 }}</label>
+      <input formControlName="storeId" placeholder="Store ID" readonly />
+      <input formControlName="storeName" placeholder="Store Name" />
+      <input formControlName="tel" placeholder="Tel" />
+    </div>
+  </div>
+</form>
+
+

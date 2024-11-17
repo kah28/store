@@ -1,0 +1,14 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.search-actions {
+  display: flex;
+  gap: 10px;
+}

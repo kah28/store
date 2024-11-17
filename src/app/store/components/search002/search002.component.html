@@ -1,0 +1,23 @@
+<div class="search-container">
+
+</div>
+
+<!-- 搜尋欄位 -->
+ <div [formGroup] = storeForm></div>
+<mat-card class="form-card">
+  <mat-form-field class="search-input">
+    <mat-label>依店家名稱搜尋</mat-label>
+    <input matInput formControlName="storeName" />
+  </mat-form-field>
+  <span class="search-actions">
+    <button mat-raised-button color="primary"  (click)="onSearch()">搜尋</button>
+    <button mat-raised-button color="warn" (click)="onClear()">清空</button>
+  </span>
+
+</mat-card>
+
+
+
+
+
+
